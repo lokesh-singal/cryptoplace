@@ -31,11 +31,11 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      <Link to={`/`}>
+      <Link to={`/cryptoplace/`}>
         <img className="logo" src={logo} alt="" />
       </Link>
       <ul>
-        <Link to={`/`}>
+        <Link to={`/cryptoplace/`}>
           <li>Home</li>
         </Link>
         <li>Features</li>
